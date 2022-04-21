@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AJAX Homework</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- This would be an awesome place to link to bootstrap...just sayin... -->
+
+  <link rel="stylesheet" href="/static/profile.css">
+
+
+</head>
+<body>
+
+
+<div id="profile">
+  <h2>Customer Survey</h2>
+  <form id="profile-form" method="POST">
+    <div>
+      <label>Name: </label>
+      <input class="form-control" type="text" name="name" id="name-field"
+             placeholder="First Last">
+    </div>
+    <div>
+       <label>Age: </label>
+       <input class="form-control" type="text" name="age" id="age-field"
+             placeholder="Immortal">
+    </div>
+    <div>
+      <label>Occupation: </label>
+      <input class="form-control" type="text" name="occupation" id="occupation-field"
+             placeholder="Superhero">
+    </div>
+
+    <div>
+      <button class="btn btn-primary" type="submit" id="submit-profile">Submit</button>
+    </div>
+  </form>
+  <div id="profiles">
+  </div>
+</div>
+
+<script src="/static/profile.js"></script>
+
+</body>
+</html>
